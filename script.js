@@ -10,7 +10,7 @@ function count() {
   number++;
   numArr.unshift(number);
   setTimeout(count, 1000);
-  if (number > 9) {
+  if (number >= 9) {
     numArr.length = 9;
   }
 }
